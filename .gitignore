@@ -1,0 +1,28 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+.env.*
+*.key
+*.pem
+
+# Large EO imagery / raster outputs
+*.jp2
+*.tif
+*.tiff
+*.vrt
+*.gpkg
+*.qgz
+*.rar
+
+# Local output directories
+outputs/
+03_satellite/
+05_outputs/
+06_python_outputs/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
