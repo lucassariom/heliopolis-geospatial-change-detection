@@ -26,3 +26,4 @@ outputs/
 Thumbs.db
 .vscode/
 .idea/
+\n# Study-area geometry is intentionally kept local\ndata/*.geojson\n
