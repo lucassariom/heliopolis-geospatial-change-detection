@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <rect width="1200" height="675" fill="#f7f8fa"/>
+  <text x="60" y="72" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" fill="#17212b">Heliópolis Geospatial Change Detection</text>
+  <text x="60" y="108" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#53606d">Sentinel-2 Level-2A • native 10 m grid • 2021-09-22 vs 2026-09-16</text>
+
+  <g font-family="Arial, Helvetica, sans-serif">
+    <rect x="60" y="150" width="250" height="120" rx="16" fill="#ffffff" stroke="#d9dee5"/>
+    <text x="82" y="184" font-size="16" fill="#66717c">Mean NDVI 2021</text>
+    <text x="82" y="235" font-size="42" font-weight="700" fill="#17212b">0.615</text>
+
+    <rect x="330" y="150" width="250" height="120" rx="16" fill="#ffffff" stroke="#d9dee5"/>
+    <text x="352" y="184" font-size="16" fill="#66717c">Mean NDVI 2026</text>
+    <text x="352" y="235" font-size="42" font-weight="700" fill="#17212b">0.747</text>
+
+    <rect x="600" y="150" width="250" height="120" rx="16" fill="#ffffff" stroke="#d9dee5"/>
+    <text x="622" y="184" font-size="16" fill="#66717c">Mean ΔNDVI</text>
+    <text x="622" y="235" font-size="42" font-weight="700" fill="#1f7a4d">+0.132</text>
+
+    <rect x="870" y="150" width="270" height="120" rx="16" fill="#ffffff" stroke="#d9dee5"/>
+    <text x="892" y="184" font-size="16" fill="#66717c">Valid rasterized area</text>
+    <text x="892" y="235" font-size="42" font-weight="700" fill="#17212b">7.24 ha</text>
+
+    <text x="60" y="330" font-size="19" font-weight="700" fill="#17212b">Operational change classes (±0.05 NDVI)</text>
+    <rect x="60" y="355" width="78" height="54" rx="8" fill="#c9473d"/>
+    <rect x="138" y="355" width="290" height="54" fill="#d8c66a"/>
+    <rect x="428" y="355" width="712" height="54" rx="8" fill="#4b9f67"/>
+
+    <text x="60" y="445" font-size="17" fill="#17212b">Decrease: 6.91% • 0.50 ha</text>
+    <text x="390" y="445" font-size="17" fill="#17212b">Stable: 24.17% • 1.75 ha</text>
+    <text x="735" y="445" font-size="17" fill="#17212b">Increase: 68.92% • 4.99 ha</text>
+
+    <text x="60" y="520" font-size="19" font-weight="700" fill="#17212b">Workflow</text>
+    <text x="60" y="558" font-size="17" fill="#53606d">AOI GeoJSON → STAC search → asset discovery → S3 retrieval → BOA reflectance → NDVI → grid validation → pixel-level change detection</text>
+
+    <text x="60" y="620" font-size="14" fill="#7a858f">Interpretation: spectral change between two observations; the ±0.05 threshold is an analytical convention, not a universal ecological threshold.</text>
+  </g>
+</svg>
