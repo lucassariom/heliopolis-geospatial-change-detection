@@ -1,0 +1,4 @@
+class_value,class_name,pixel_count,area_m2,area_ha,pct_of_valid_overlap
+-1,decrease,50,5000.0,0.50,6.906077
+0,stable,175,17500.0,1.75,24.171271
+1,increase,499,49900.0,4.99,68.922652
