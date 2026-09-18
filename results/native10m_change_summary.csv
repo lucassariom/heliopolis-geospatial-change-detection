@@ -1,0 +1,2 @@
+valid_pixel_count,pixel_area_m2,valid_area_m2,valid_area_ha,ndvi_2021_mean_valid_overlap,ndvi_2026_mean_valid_overlap,delta_min,delta_max,delta_mean,delta_stddev
+724,100.0,72400.0,7.24,0.614838,0.747175,-0.393781,0.600111,0.132336,0.156229
