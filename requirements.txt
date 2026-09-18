@@ -1,0 +1,7 @@
+boto3>=1.40
+geopandas>=1.1
+numpy>=2.0
+pandas>=2.0
+pystac-client>=0.9
+rasterio>=1.4
+requests>=2.32
