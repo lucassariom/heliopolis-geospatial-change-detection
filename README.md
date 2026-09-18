@@ -12,9 +12,7 @@ The satellite workflow searches imagery by AOI/date/cloud cover, discovers spect
 
 ## Portfolio overview
 
-![Heliópolis NDVI change-detection portfolio](docs/portfolio_overview.png)
-
-A one-page visual summary is also available as [PDF](docs/portfolio_overview.pdf).
+![Heliópolis NDVI change-detection portfolio](docs/portfolio_overview.svg)
 
 ## Final native-grid results
 
@@ -156,8 +154,7 @@ The close agreement provided an independent check of the processing logic. The f
 │   └── cdse_s3_diagnose.py
 ├── docs/
 │   ├── METHODOLOGY.md
-│   ├── portfolio_overview.png
-│   └── portfolio_overview.pdf
+│   └── portfolio_overview.svg
 ├── results/
 │   ├── native10m_change_summary.csv
 │   └── native10m_change_classes.csv
