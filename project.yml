@@ -1,0 +1,16 @@
+project_name: Heliopolis Geospatial Change Detection
+study_area: Comunidade Heliópolis
+satellite: Sentinel-2 Level-2A
+comparison_dates:
+  - 2021-09-22
+  - 2026-09-16
+native_resolution_m: 10
+crs: EPSG:32722
+change_threshold_ndvi: 0.05
+final_metrics:
+  ndvi_mean_2021: 0.614838
+  ndvi_mean_2026: 0.747175
+  delta_ndvi_mean: 0.132336
+  increase_pct: 68.922652
+  stable_pct: 24.171271
+  decrease_pct: 6.906077
